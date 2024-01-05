@@ -237,13 +237,13 @@ six = "*"
 
 [[package]]
 name = "category-encoders"
-version = "2.6.0"
+version = "2.6.3"
 description = "A collection of sklearn transformers to encode categorical variables as numeric"
 optional = false
 python-versions = "*"
 files = [
-    {file = "category_encoders-2.6.0-py2.py3-none-any.whl", hash = "sha256:d20d0149b823a53dc85e14b7cac5f01d3bc7c5ac2e42f3761f575cb504a35e7e"},
-    {file = "category_encoders-2.6.0.tar.gz", hash = "sha256:9e92dbdc61905deb2ea9cd43cd3e0dd3380050511e34e30f2cb91fa762ef2bb4"},
+    {file = "category_encoders-2.6.3-py2.py3-none-any.whl", hash = "sha256:117775f1775e53a67c9e91842ac9100bc364cddc9f4058188796532bc5b11f1c"},
+    {file = "category_encoders-2.6.3.tar.gz", hash = "sha256:d9f14705ed4b536eaf9cfc81b76d67a50b2f16f8f3eda498c57d7da19655530c"},
 ]
 
 [package.dependencies]
@@ -3064,4 +3064,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "3.9.4"
-content-hash = "a1c05ccd33b24c467433dc87b2c80387041f51dcf8fcad11dcf37c6623fd82e1"
+content-hash = "77089a58aedc9a8c6e622bdd2f83185a1c19b644c41a409b52b7e0f8b1cb05e7"
