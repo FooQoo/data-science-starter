@@ -246,13 +246,13 @@ widget = ["ipython", "ipywidgets (>=7.0,<9.0)", "traitlets"]
 
 [[package]]
 name = "category-encoders"
-version = "2.6.3"
+version = "2.6.4"
 description = "A collection of sklearn transformers to encode categorical variables as numeric"
 optional = false
 python-versions = "*"
 files = [
-    {file = "category_encoders-2.6.3-py2.py3-none-any.whl", hash = "sha256:117775f1775e53a67c9e91842ac9100bc364cddc9f4058188796532bc5b11f1c"},
-    {file = "category_encoders-2.6.3.tar.gz", hash = "sha256:d9f14705ed4b536eaf9cfc81b76d67a50b2f16f8f3eda498c57d7da19655530c"},
+    {file = "category_encoders-2.6.4-py2.py3-none-any.whl", hash = "sha256:59f4b541ec787dfdfacc12267e1aff91a1ddc0b756991ec2129d50d6495d6e36"},
+    {file = "category_encoders-2.6.4.tar.gz", hash = "sha256:b842f0b3f280cdcee94278bee61c96500e4a8f71bc846714d7bf5696ae24b528"},
 ]
 
 [package.dependencies]
