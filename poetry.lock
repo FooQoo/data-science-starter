@@ -1950,23 +1950,23 @@ wcwidth = "*"
 
 [[package]]
 name = "prophet"
-version = "1.1.5"
+version = "1.3.0"
 description = "Automatic Forecasting Procedure"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "prophet-1.1.5-py3-none-macosx_10_9_x86_64.whl", hash = "sha256:1c522a76ce49264ad140bbebca7d1c7cdc9ebfe718cdcaaf2c289db96e9e03bd"},
-    {file = "prophet-1.1.5-py3-none-macosx_11_0_arm64.whl", hash = "sha256:24e7ce972f95068af7074dbad5846f83485257366b023af44e86716fb438bb0d"},
-    {file = "prophet-1.1.5-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:cd5991a86dc0a86e09da550fb072ade8714dc17741da0231907d972429476a54"},
-    {file = "prophet-1.1.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7761d127a41d3434b83d16f27b41cdc71052c7d98c0d6013a227a0bc55347da9"},
-    {file = "prophet-1.1.5-py3-none-win_amd64.whl", hash = "sha256:337d9cf7728b8d3ef18a8304aa90c079f206aead15d9f0beff87cad8050553ff"},
-    {file = "prophet-1.1.5.tar.gz", hash = "sha256:80973c0b8a22d835bfa9d6665a78ebc63115135eaef0f73b46ee14e9bad3ca1a"},
+    {file = "prophet-1.3.0-py3-none-macosx_10_11_x86_64.whl", hash = "sha256:fe70571cbd051a8e1f6c5ff3a53215a6287820b7f2991df056406eefb4a615a7"},
+    {file = "prophet-1.3.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:1f51922a0db9bae8af3e46e33b094487f1be0c96a373b47ec3ad041020adacd0"},
+    {file = "prophet-1.3.0-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:b65f189002a406413c58a28af40b6f2b240bba1ebf1158d204c46ebc570cd3c0"},
+    {file = "prophet-1.3.0-py3-none-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:ed25f79e554d928b123cbf4f5a8a4e33bb003c7e26dcc2c8352e900f11f6b770"},
+    {file = "prophet-1.3.0-py3-none-win_amd64.whl", hash = "sha256:6790f9f06cc9e76d2f21c501f5889cf37f75917fba6859e196889dfde4bfec3b"},
+    {file = "prophet-1.3.0.tar.gz", hash = "sha256:7ec252e898199a1965ca10db3ca625a4ec75e4e6f738d2b4108fe603666a9ef0"},
 ]
 
 [package.dependencies]
 cmdstanpy = ">=1.0.4"
-holidays = ">=0.25"
-importlib-resources = "*"
+holidays = ">=0.25,<1"
+importlib_resources = "*"
 matplotlib = ">=2.0.0"
 numpy = ">=1.15.4"
 pandas = ">=1.0.4"
